@@ -8,4 +8,9 @@ public class Ghost_Kill : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
 }
